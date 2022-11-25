@@ -1,7 +1,7 @@
 import React, { Fragment, useContext, useEffect } from "react";
 import { useHistory } from "react-router-dom";
 import moment from "moment";
-import { DashboardContext } from "./";
+import { DashboardContext } from ".";
 import { todayAllOrders } from "./Action";
 
 const apiURL = process.env.REACT_APP_API_URL;

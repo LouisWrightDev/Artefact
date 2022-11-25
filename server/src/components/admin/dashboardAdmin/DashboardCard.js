@@ -1,5 +1,5 @@
 import React, { Fragment, useContext, useEffect } from "react";
-import { DashboardContext } from "./";
+import { DashboardContext } from ".";
 import { GetAllData } from "./Action";
 
 const DashboardCard = (props) => {

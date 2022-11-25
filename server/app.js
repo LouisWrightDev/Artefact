@@ -71,7 +71,8 @@ app.use("/api/order", orderRouter);
 app.use("/api/customize", customizeRouter);
 
 // Run Server
-const PORT = process.env.PORT || 8000;
-app.listen(PORT, () => {
-  console.log("Server is running on ", PORT);
+const SPORT = process.env.SPORT;
+const CPORT = process.env.CPORT;
+app.listen(CPORT, () => {
+  console.log("Server is running on ", SPORT);
 });

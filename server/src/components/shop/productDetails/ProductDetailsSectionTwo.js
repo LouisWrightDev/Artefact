@@ -2,7 +2,7 @@ import React, { Fragment, useContext, useEffect, useState } from "react";
 import AllReviews from "./AllReviews";
 import ReviewForm from "./ReviewForm";
 
-import { ProductDetailsContext } from "./";
+import { ProductDetailsContext } from ".";
 import { LayoutContext } from "../layout";
 
 import { isAuthenticate } from "../auth/fetchApi";

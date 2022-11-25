@@ -1,6 +1,6 @@
 import React, { Fragment, useEffect, useContext, useState } from "react";
 import OrderSuccessMessage from "./OrderSuccessMessage";
-import { HomeContext } from "./";
+import { HomeContext } from ".";
 import { sliderImages } from "../../admin/dashboardAdmin/Action";
 import { prevSlide, nextSlide } from "./Mixins";
 

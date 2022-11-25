@@ -1,5 +1,5 @@
 import React, { Fragment, useContext, useEffect } from "react";
-import { DashboardContext } from "./";
+import { DashboardContext } from ".";
 import { uploadImage, sliderImages, deleteImage } from "./Action";
 
 const apiURL = process.env.REACT_APP_API_URL;
